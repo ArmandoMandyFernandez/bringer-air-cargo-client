@@ -1,0 +1,61 @@
+.trackingCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 80%;
+    max-width: 50rem;
+    border-radius: 8px;
+    z-index: 1999;
+    padding: 1rem; 
+    box-shadow: 0 10px 20px rgba(40, 78, 102, 0.15);
+    overflow: visible ;
+    // &_header{
+    //     margin: 1rem 0;
+    // }
+
+    // &_subheader{
+    //     margin: 1rem 0;
+    // }
+
+    // &_form{
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     width: 100%;
+    // }
+    // &_input{
+    //     border: none;
+    //     border-bottom: 1px solid;
+    //     width: 100%;
+
+    // }
+    
+    // &_button{
+    //     &-search{
+    //         margin: 1rem 0;
+    //         padding: .5rem 1rem;
+    //         border-radius: 8px;
+    //         border: solid rgb(194, 218, 250);
+    //         background-color: white;
+    //         color: blue;
+    //         font-weight: 800;
+    //         }
+
+    //     &-map{
+    //         width: 100%;
+    //         padding: .5rem 1rem;
+    //         border-radius: 8px;
+    //         border: solid rgb(194, 218, 250);
+    //         background-color: white;
+    //         color: blue;
+    //         font-weight: 800;
+    //     }
+
+    // }
+    
+    
+}

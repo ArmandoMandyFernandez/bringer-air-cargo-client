@@ -1,0 +1,53 @@
+.loginCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    width: 20rem;
+    margin-top: 5rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 400;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+
+    &_container{
+        width: 100%;
+
+        &-token{
+            margin-top: 1rem; 
+            padding: 1rem; 
+            border: 1px solid #ccc; 
+            max-width: 100%; 
+            overflow: hidden;
+            flex-wrap: wrap;
+            word-wrap: break-word;
+            border: none;
+        }
+    }
+
+    &_header{
+        font-size: 1rem;
+    }
+
+    &_recovery{
+        margin-top: 1rem;
+    }
+
+    &_form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        &-input{
+            margin: .25rem 0 .5rem 0;
+            max-width: 100%;
+            line-height: 1.4;
+        }
+        &-button{
+            margin-top: 1rem;
+        }
+    }
+}

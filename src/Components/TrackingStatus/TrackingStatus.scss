@@ -1,0 +1,85 @@
+.trackingStatus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 80%;
+    max-width: 50rem;
+    border-radius: 8px;
+    z-index: 1999;
+    padding: 1rem; 
+    box-shadow: 0 10px 20px rgba(40, 78, 102, 0.15);
+    overflow: visible ;
+
+//     &_header{
+//         color: red;
+//         font-size: .75rem;
+//     }
+
+//     &_button {
+//         padding: 0.5rem 1rem;
+//         border-radius: 8px;
+//         border: solid rgb(194, 218, 250);
+//         background-color: white;
+//         color: blue;
+//         font-weight: 800;
+//     }
+
+//     &_contact-statement{
+//         font-size: .6rem;
+//         margin: 1rem 0 .5rem 0;
+    
+//     }
+    
+//     &_list-item{
+//         display: flex;
+//         flex-direction: row;
+//         justify-content:space-evenly;
+//         align-items: center;
+//     }
+
+//     &_container-main{
+//         width: 100%;
+//     }
+
+//     &_container-button{
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-between;
+//     }
+
+//     &_container-info-time{
+//         display: flex;
+//         flex-direction: column;
+//         align-items: flex-end;
+//         margin: 1rem;
+//         width: 30%;
+//     }
+//     &_container-info-location{
+//         display: flex;
+//         flex-direction: column;
+//         align-items: flex-start;
+//         width: 50%;
+//         margin: 1rem
+//     }
+
+//     &_date{
+//         font-size: .75rem;
+//         font-weight: 800;
+//     }
+
+//     &_time{
+//         font-size: .6rem;
+//         color: gray;
+//     }
+
+//     &_description{
+//         font-size: .75rem;
+//         font-weight: 600;
+//     }
+//     &_location{
+//         font-size: .6rem;
+//     }
+}
