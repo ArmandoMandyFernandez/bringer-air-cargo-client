@@ -13,7 +13,7 @@ function Header() {
                 <Link to="/"><img src={logo} alt="Logo Goes Here" className="header_logo" /></Link>
                 <ul className="header_links">
                     <li className="header_links-line">Start Shipping</li>
-                    <li className="header_links-line">Tracking</li>
+                    <li className="header_links-line"><Link className="header_links-line" to="/tracking">Tracking</Link></li>
                     <li className="header_links-line">API</li>
                     <li className="header_links-line">Contact Us</li>
                 </ul>
