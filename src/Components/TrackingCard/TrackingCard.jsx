@@ -51,6 +51,7 @@ function TrackingCard({ onStatusUpdate }) {
         setModalOpen(false);
     };
 
+
     return (
         <Paper className="trackingCard" fullWidth={true}>
             <Modal
