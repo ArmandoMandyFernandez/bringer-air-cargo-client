@@ -37,6 +37,14 @@ This project relies on the following dependencies:
 
 These dependencies are automatically installed when you run `npm install` as specified in the project's `package.json` file.
 
+# Instructions
+
+This client side application has been deployed on Netlify `https://main--steady-truffle-69a5b1.netlify.app/` 
+
+(You need the server to be running the server to have all the features running : `https://github.com/ArmandoMandyFernandez/bringer-air-cargo-server` )
+
+If you wish to run it locally feel free to clone the repo, run the command line `npm install` to make sure you have all the packages, and finally run the commandline `npm start` to see it in your localhost:3000 (or any other port you use)
+
 # Acknowledgments
 Thank you to the team at Bringer Air Cargo
 
