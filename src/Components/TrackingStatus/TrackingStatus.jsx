@@ -87,8 +87,6 @@ function TrackingStatus({ status }) {
         );
     }
 
-    console.log(showButton)
-
     return (
         <Paper
             className="trackingStatus"
