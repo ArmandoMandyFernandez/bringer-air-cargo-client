@@ -50,6 +50,10 @@ function TrackingCard({ onStatusUpdate }) {
     const handleMapClose = () => {
         setModalOpen(false);
     };
+    // eslint-disable-next-line no-unused-vars
+    console.log(formSubmitted)
+    // eslint-disable-next-line no-unused-vars
+    console.log(trackingData)
 
 
     return (
