@@ -30,7 +30,8 @@ function LoginCard() {
             // if everything we have a login and password then the API will accept the post and produce a JWT Token
             try {
                 const response = await axios.post(
-                    "http://localhost:8888/generate_token",
+                    // "http://localhost:8888/generate_token",
+                    `https://bringer-air-cargo-server.onrender.com/generate_token`,
                     { login, password }
                 );
                 // storing the token

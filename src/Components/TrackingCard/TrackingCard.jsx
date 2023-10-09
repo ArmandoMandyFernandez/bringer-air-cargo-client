@@ -26,7 +26,8 @@ function TrackingCard({ onStatusUpdate }) {
         try {
             // dynamically updating the tracking number to whatever is inputted
             const response = await axios.get(
-                `http://localhost:8888/tracking_parcel/${trackingNumber}`
+                // `http://localhost:8888/tracking_parcel/${trackingNumber}`
+                `https://bringer-air-cargo-server.onrender.com/tracking_parcel/${trackingNumber}`
             );
             // updating the state of the tracking data
             setTrackingData(response.data);
