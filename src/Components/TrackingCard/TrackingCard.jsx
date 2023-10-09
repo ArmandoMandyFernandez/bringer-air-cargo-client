@@ -30,6 +30,7 @@ function TrackingCard({ onStatusUpdate }) {
             );
             // updating the state of the tracking data
             setTrackingData(response.data);
+            // setTrackingNumber(response.data)
             // if data and status is received then update onStatusUpdate
             if (response.data && response.data.status) {
                 onStatusUpdate(response.data);
@@ -54,6 +55,8 @@ function TrackingCard({ onStatusUpdate }) {
     console.log(formSubmitted)
     // eslint-disable-next-line no-unused-vars
     console.log(trackingData)
+    // eslint-disable-next-line no-unused-vars
+    // console.log(trackingNumber)
 
 
     return (
